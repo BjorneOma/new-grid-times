@@ -20,6 +20,12 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 8px;
+
+  @media ${QUERIES.laptopAndUp} {
+    border-top: solid 1px var(--color-gray-300);
+    margin-top: 16px;
+    padding-top: 16px;
+  }
 `;
 
 const Prefix = styled.p`
